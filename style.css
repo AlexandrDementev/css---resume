@@ -1,0 +1,96 @@
+body {
+    background-color: #f8eaea;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 14px 15px 20px #1d1212;
+}
+.info {
+    display: flex;
+    color: rgb(122, 121, 121);
+    margin: 0;
+    font-style: normal;
+    margin-bottom: 50px;
+    }
+@media (max-width:700px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+    
+}
+    .info-text{
+        margin-left: 70px
+    }
+.social{
+    background: rgb(156, 142, 219);
+    padding: 15px;
+    border: 5 px solid greenyellow;
+    border-radius: 50px;
+    margin: 5px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration: underline;
+}
+.bg-yellow{
+    background-color: antiquewhite;
+}
+.bg-red{
+    background-color: #ffe5e5;
+}
+.bg-blue{
+    background-color: #ccc;
+}
+.card {
+    padding: 15px 60px;
+    color: rgb(122, 121, 121)
+    margin-bottom 20px;
+    border-radius: 28px;
+}
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+.link-list li{
+    margin-bottom: 10px;
+}
+.form-grop label{ 
+    display: block;
+    font-size: medium;
+color: #131212;
+}
+.form-grop input,
+.form-grop textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    /* border: 3px thick double navy; */
+    padding: 15px 0 10px;
+    border-bottom: 5px solid #ccc;
+    outline: none;
+    font-family:inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px ;
+    
+}
+.row >.form-grop{
+    width: 50%;
+    
+}
+.row >.form-grop:first-child {
+    margin-right: 13px;
+}
